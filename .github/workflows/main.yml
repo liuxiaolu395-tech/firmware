@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 env:
-  TAG_NAME: testtcp
+  TAG_NAME: gktcp
 
 jobs:
   buildroot:
@@ -15,7 +15,7 @@ jobs:
       matrix:
         platform:
           # Goke [GK7205V200]
-          - gk7205v200_ultmite
+          - gk7205v200_ultimate
 
     steps:
       - name: Checkout source
