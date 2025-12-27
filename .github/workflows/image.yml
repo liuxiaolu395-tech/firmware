@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 env:
-  GUOKE:gk7205v200
+  GUOKE: gk7205v200
   TAG_NAME: image
 
 jobs:
