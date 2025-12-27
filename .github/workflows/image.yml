@@ -1,7 +1,5 @@
 name: image
 on:
-  schedule:
-    - cron: '30 23 * * *'
   workflow_dispatch:
 
 env:
