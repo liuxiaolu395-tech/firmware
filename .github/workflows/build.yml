@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  TAG_NAME: latest
+  TAG_NAME: latest1
 
 jobs:
   buildroot:
