@@ -38,6 +38,7 @@ define ONVIF_SIMPLE_SERVER_INSTALL_TARGET_CMDS
 	ln -s /usr/sbin/onvif_simple_server $(TARGET_DIR)/var/www/onvif/events_service
 	ln -s /usr/sbin/onvif_simple_server $(TARGET_DIR)/var/www/onvif/media_service
 	ln -s /usr/sbin/onvif_simple_server $(TARGET_DIR)/var/www/onvif/ptz_service
+	ln -s /usr/sbin/onvif_simple_server $(TARGET_DIR)/var/www/onvif/deviceio_service
 endef
 
 $(eval $(generic-package))
