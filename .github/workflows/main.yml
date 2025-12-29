@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 env:
-  TAG_NAME: gktcp
+  TAG_NAME: gktcp1
 
 jobs:
   buildroot:
